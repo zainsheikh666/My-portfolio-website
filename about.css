@@ -1,0 +1,25 @@
+.card {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.card h1 {
+  color: rgb(7, 40, 96);
+}
+.card p {
+  color: rgb(109, 108, 108);
+  font-size: 12px;
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: rgb(6, 39, 67);
+  transition: transform 2s ease;
+  transition: background-color 1s ease;
+
+  h1,
+  h2,
+  p {
+    color: white;
+  }
+}
